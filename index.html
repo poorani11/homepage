@@ -17,19 +17,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script>
         $(document).ready(function() {
-            var currentStep = 0;
             $("#spanish").hide();
             $("#btnStep1").click(function() {
                 console.log("english clicked")
                 $("#english").show();
                 $("#spanish").hide();
-                currentStep = 1;
             });
             $("#btnStep2").click(function() {
                 console.log("spanish clicked")
                 $("#english").hide();
                 $("#spanish").show();
-                currentStep = 2;
             })
         });
     </script>
